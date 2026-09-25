@@ -4,20 +4,23 @@ A ten-minute talk for fourth-year Computer Engineering students: what the GATK
 variant calling pipeline does to a genome, and where machine learning actually
 enters it — mapped onto the CSC701 syllabus.
 
-**Two cuts of the same talk**
+**Three versions of the same talk**
 
-| | Length | Link |
+| | Shape | Link |
 |---|---|---|
-| **Full** | ~30 min, 117 steps | https://vishnu-patil26.github.io/variant-calling-talk/ |
-| **Short** | ~10 min, 44 beats | https://vishnu-patil26.github.io/variant-calling-talk/10min/ |
+| **Full** | 16 slides, 117 steps, ~30 min | https://vishnu-patil26.github.io/variant-calling-talk/ |
+| **Compact** | 10 slides, 3 beats each, ~10 min | https://vishnu-patil26.github.io/variant-calling-talk/compact/ |
+| **Step-filtered** | 16 slides, 44 beats (superseded) | https://vishnu-patil26.github.io/variant-calling-talk/10min/ |
 
-The short cut is the same sixteen slides and the same animations — it just
-stops on fewer of them. Every algorithm is still in it: CART and the Gini
-index, k-means, EM on a Gaussian mixture, PCA, the random forest, and the
-confusion matrix through to ROC.
+The **compact** version is the one to present. It is not the full deck with
+steps removed — each of its ten slides carries three beats with copy written
+for that beat, so no line depends on a step the audience never saw. Every
+algorithm survives: CART and the Gini index, the E and M steps on a Gaussian
+mixture, PCA, the random forest, and the confusion matrix through to ROC.
 
-Every number on the slides came off a real GRCh38 chr20 run: 1,775 variants,
-1,743 of them PASS. Nothing is simulated.
+The step-filtered version is kept only so its link does not break; it drops
+steps without rewriting the captions, so some lines refer to things that are
+no longer on screen.
 
 ## Running it
 
