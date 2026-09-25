@@ -4,7 +4,17 @@ A ten-minute talk for fourth-year Computer Engineering students: what the GATK
 variant calling pipeline does to a genome, and where machine learning actually
 enters it — mapped onto the CSC701 syllabus.
 
-**Open the talk:** https://vishnu-patil26.github.io/variant-calling-talk/
+**Two cuts of the same talk**
+
+| | Length | Link |
+|---|---|---|
+| **Full** | ~30 min, 117 steps | https://vishnu-patil26.github.io/variant-calling-talk/ |
+| **Short** | ~10 min, 44 beats | https://vishnu-patil26.github.io/variant-calling-talk/10min/ |
+
+The short cut is the same sixteen slides and the same animations — it just
+stops on fewer of them. Every algorithm is still in it: CART and the Gini
+index, k-means, EM on a Gaussian mixture, PCA, the random forest, and the
+confusion matrix through to ROC.
 
 Every number on the slides came off a real GRCh38 chr20 run: 1,775 variants,
 1,743 of them PASS. Nothing is simulated.
